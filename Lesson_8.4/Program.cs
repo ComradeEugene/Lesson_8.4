@@ -21,7 +21,6 @@ namespace Lesson_8._4
 			WriteLine("Домашний телефон:");
 			string FlatPhone = ReadLine();
 
-			XName name = Person;
 			XElement Contact = new XElement("Person");
 			XAttribute Name = new XAttribute("name", Person);
 			Contact.Add(Name);
